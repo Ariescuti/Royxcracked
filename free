@@ -1,1 +1,11 @@
-   game.Players.LocalPlayer:Kick("Want cracked? , you have blacklisted !!")
+local keychecked = false
+
+if _G.Key == "RyxcrackedbyAries" then
+      keychecked = true
+end
+
+if keychecked == true then
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Ariescuti/Royxcracked/main/free"))();
+    else
+       game.Players.LocalPlayer:Kick("incorrect key")
+ end
